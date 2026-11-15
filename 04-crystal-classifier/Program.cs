@@ -17,7 +17,6 @@ else
 {
     classification = "Critical";
 }
-
 // TODO: Sett classification med if / else if / else.
 
 Console.WriteLine($"Classification: {classification}");

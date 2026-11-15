@@ -5,7 +5,7 @@ int drainPerCycle = 5;
 while(charge>0)
 {
     Console.WriteLine("Charge Percentage:" +charge);
-    charge -= 5;
+    charge -= drainPerCycle;
 }
 
 Console.WriteLine("Power cell offline.");
